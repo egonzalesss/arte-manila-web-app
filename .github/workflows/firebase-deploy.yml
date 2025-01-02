@@ -28,7 +28,7 @@ jobs:
     # Build the Angular project
     - name: Build Angular app
       run: |
-        npm run build -- --prod
+        npm run build
 
     # Deploy to Firebase Hosting
     - name: Deploy to Firebase
